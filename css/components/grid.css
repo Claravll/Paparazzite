@@ -1,0 +1,22 @@
+.grid a{
+    text-decoration: none;
+}
+
+.grid a:hover{
+    text-decoration: underline;
+}
+
+.grid{
+    width: 700px;
+    margin: 80px;
+    margin-top: 10px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media(max-width:768px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}

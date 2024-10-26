@@ -1,0 +1,9 @@
+.collapse a, .collapsing a{
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(72, 70, 70);
+    font-size: medium;
+}
+
+.collapse {
+    border-style: none !important; 
+}

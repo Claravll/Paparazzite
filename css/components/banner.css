@@ -1,0 +1,14 @@
+.banner{
+    background-image: url('../../images/banner.png');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px;
+    margin-bottom: 32px ;
+    color: rgb(2, 2, 2);
+    text-shadow: 0px 10px 30px rgb(253, 251, 251);
+}
+
+.title-container {
+    display: inline-block; /* Adapte la largeur au contenu */
+    padding: 10px; /* Ajoute un peu de padding autour pour l'esthétique */
+}
