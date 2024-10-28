@@ -26,7 +26,7 @@ function createCard(data) {
     </a>
     <div style="min-height: 20px;">
         <div class="collapse" id="collapse-${normalizedName}">
-            <div class="" style="width: 300px;">
+            <div class="fst-italic" style="width: 300px;">
                 <ul>
                     ${itemsHTML}
                 </ul>

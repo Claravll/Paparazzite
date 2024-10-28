@@ -1,6 +1,6 @@
 const cardsData = [
     {
-        name: "Ixodides",
+        name: "Ixodidae",
         backgroundImage: "images/ixodes.png",
         group: "acariens",
         items: [
@@ -10,7 +10,7 @@ const cardsData = [
         ]
     },
     {
-        name: "Argasidés",
+        name: "Argasidae",
         group: "acariens",
         backgroundImage: "images/argaside.png",
         items: [
@@ -19,7 +19,7 @@ const cardsData = [
         ]
     },
     {
-        name: "Dermanyssidés",
+        name: "Dermanyssidae",
         group: "acariens",
         backgroundImage: "images/dermanyssus.png",
         items: [
@@ -28,7 +28,7 @@ const cardsData = [
         ]
     },
     {
-        name: "Sarcoptides",
+        name: "Sarcoptidae",
         group: "acariens",
         backgroundImage: "images/psoroptes.png",
         items: [
@@ -36,7 +36,7 @@ const cardsData = [
         ]
     },
     {
-        name: "Psoroptes",
+        name: "Psoroptidae",
         group: "acariens",
         backgroundImage: "images/sarcoptes.png",
         items: [
@@ -56,7 +56,7 @@ const cardsData = [
         ]
     },
     {
-        name: "Culicides",
+        name: "Culicidae",
         group: "mandibulate",
         backgroundImage: "images/culicides.png",
         items: [
@@ -65,7 +65,7 @@ const cardsData = [
         ]
     },
     {
-        name: "Psychodides",
+        name: "Psychodidae",
         group: "mandibulate",
         backgroundImage: "",
         items: [
@@ -73,7 +73,7 @@ const cardsData = [
         ]
     },
     {
-        name: "Ceratopogonides",
+        name: "Ceratopogonidae",
         group: "mandibulate",
         backgroundImage: "",
         items: [
@@ -81,7 +81,7 @@ const cardsData = [
         ]
     },
     {
-        name: "Simuliidés",
+        name: "Simuliidae",
         group: "mandibulate",
         backgroundImage: "",
         items: [
@@ -89,7 +89,7 @@ const cardsData = [
         ]
     },
     {
-        name: "Tabanidés",
+        name: "Tabanidae",
         group: "mandibulate",
         backgroundImage: "",
         items: [
@@ -97,7 +97,7 @@ const cardsData = [
         ]
     },
     {
-        name: "Hippoboscidés",
+        name: "Hippoboscidae",
         group: "mandibulate",
         backgroundImage: "",
         items: [
@@ -115,7 +115,7 @@ const cardsData = [
         ]
     },
     {
-        name: "Pullucidés-Ctenocephalides",
+        name: "Pullucidae-Ctenocephalidae",
         group: "mandibulate",
         backgroundImage: "images/ctenocephalides.png",
         items: [
@@ -124,7 +124,7 @@ const cardsData = [
         ]
     },
     {
-        name: "Anoploures-Hématopinidés",
+        name: "Anoploures-Hématopinidae",
         group: "mandibulate",
         backgroundImage: "images/haematopinus.png",
         items: [
@@ -133,7 +133,7 @@ const cardsData = [
         ]
     },
     {
-        name: "Mallophages-Trichodectidés",
+        name: "Mallophages-Trichodectidae",
         group: "mandibulate",
         backgroundImage: "images/bovicola.png",
         items: [
@@ -142,7 +142,7 @@ const cardsData = [
         ]
     },
     {
-        name: "Cimicidés-Cimex",
+        name: "Cimicidae-Cimex",
         group: "mandibulate",
         backgroundImage: "images/cimex.png",
         items: [

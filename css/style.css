@@ -10,6 +10,8 @@
 @import url('components/cards.css');
 @import url('components/banner.css');
 @import url('components/collapse.css');
+@import url('components/nav.css');
+
 
 /* --Pages-- */
 
@@ -19,6 +21,7 @@
 
 h1, h2, h3 {
     font-family: 'PT Sans', sans-serif;
+    margin-top: 40px;
 }
 
 body{
