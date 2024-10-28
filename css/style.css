@@ -11,7 +11,7 @@
 @import url('components/banner.css');
 @import url('components/collapse.css');
 @import url('components/nav.css');
-
+@import url('components/parasite-list.css');
 
 /* --Pages-- */
 
@@ -22,6 +22,7 @@
 h1, h2, h3 {
     font-family: 'PT Sans', sans-serif;
     margin-top: 40px;
+    margin-left : 20px;
 }
 
 body{
