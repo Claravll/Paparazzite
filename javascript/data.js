@@ -16,8 +16,8 @@ const cardsData = [
         suit : "acariens-list",
         backgroundImage: "images/dermanyssus.png",
         items: [
-            { name: "Varroa destructor jacobsoni", file: "pdf/varroa_destructor.pdf" },
-            { name: "Dermanyssus gallinae", file: "pdf/dermanyssus_gallinae.pdf" }
+            { name: "Dermanyssus gallinae", file: "pdf/dermanyssus_gallinae.pdf" },
+            { name: "Varroa destructor jacobsoni", file: "pdf/varroa_destructor.pdf" }
         ]
     },
 
@@ -27,8 +27,8 @@ const cardsData = [
         group: "acariens",
         suit : "acariens-list",
         items: [
-            { name: "Ixodes ricinus", file: "pdf/ixodes_ricinus.pdf" },
             { name: "Dermacentor reticulatus", file: "pdf/dermacentor_reticulatus.pdf" },
+            { name: "Ixodes ricinus", file: "pdf/ixodes_ricinus.pdf" },
             { name: "Rhipicephalus sanguineus", file: "pdf/ripicephalus_sanguineus.pdf" }
         ]
     },
@@ -61,9 +61,9 @@ const cardsData = [
         suit : "acariens-list",
         backgroundImage: "images/thrombidide.png",
         items: [
-            { name: "Thrombicula autumnalis", file: "#" },
             { name: "Cheyletellia sp.", file: "#" },
-            { name: "Demodex sp.", file: "#" }
+            { name: "Demodex sp.", file: "#" },
+            { name: "Thrombicula autumnalis", file: "#" }
         ]
     },
 
@@ -105,8 +105,8 @@ const cardsData = [
         suit : "mandibulates-list",
         backgroundImage: "images/culicides.png",
         items: [
-            { name: "Culicinés", file: "#" },
-            { name: "Anaphélinés", file: "#" }
+            { name: "Anaphélinés", file: "#" },
+            { name: "Culicinés", file: "#" }
         ]
     },
 
@@ -126,9 +126,9 @@ const cardsData = [
         suit : "mandibulates-list",
         backgroundImage: "images/larves.png",
         items: [
-            { name: "Oestrus ovis", file: "#" },
             { name: "Gasterophilus intestinalis", file: "pdf/gasterophilus_sp.pdf" },
-            { name: "Hypoderma bovis", file: "pdf/hypoderma_bovis.pdf" }
+            { name: "Hypoderma bovis", file: "pdf/hypoderma_bovis.pdf" },
+            { name: "Oestrus ovis", file: "#" },
         ]
     },
 
@@ -153,7 +153,7 @@ const cardsData = [
         ]
     },
 
-    {
+        {
         name: "Pullucidae-Ctenocephalidae",
         group: "mandibulate",
         suit : "mandibulates-list",

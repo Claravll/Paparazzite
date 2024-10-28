@@ -60,16 +60,14 @@ function createList(data) {
     list.innerHTML = `
        <div class="accordion">
          <div class="card">
-             <div class="card-header" id="headingOne">
+             <div class="card-header">
                   <h5 class="mb-0 text-uppercase"> ${normalizedName} </h5>
              </div>
 
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-            <div class="fst-italic fw-bold" style="width: 300px;">
+            <div class="fst-italic" style="width: 300px;">
                     <ul>
                         ${itemsHTML}
                     </ul>
-            </div>
             </div>
         </div>
     </div>

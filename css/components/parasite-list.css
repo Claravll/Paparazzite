@@ -4,6 +4,8 @@ margin-top: 20px;
 
 .accordion a{
     text-decoration: none;
+    font-family: 'DM Serif Text', serif;
+    color: rgba(50, 35, 35, 0.742);
 }
 
 .accordion a:hover{
