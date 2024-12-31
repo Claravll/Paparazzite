@@ -7,13 +7,13 @@
 }
 
 .grid{
-    /* width: 700px; */
+    width: auto;
     margin: auto;
     margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center; /* Centre verticalement */
-    justify-content: center; /* Centre horizontalement */
+    justify-content: stretch; /* occupe toute la largeur disponible*/
 }
 
 @media(max-width:768px) {
@@ -21,3 +21,9 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr); /* Deux colonnes pour les tablettes */
+    }
+  }
