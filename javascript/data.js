@@ -41,7 +41,7 @@ const cardsData = [
         items: [
             { name: "Chorioptes sp.", file: "pdf/chorioptes_sp.pdf" },
             { name: "Otodectes sp.", file: "pdf/otodectes_sp.pdf" },
-            { name: "Psoroptes sp.", file: "#" }
+            { name: "Psoroptes sp.", file: "pdf/psoroptes.pdf" }
         ]
     },
 
@@ -61,9 +61,9 @@ const cardsData = [
         suit : "acariens-list",
         backgroundImage: "images/thrombidide.png",
         items: [
-            { name: "Cheyletellia sp.", file: "#" },
-            { name: "Demodex sp.", file: "#" },
-            { name: "Thrombicula autumnalis", file: "#" }
+            { name: "Cheyletellia sp.", file: "pdf/cheyletiella.pdf" },
+            { name: "Demodex sp.", file: "pdf/demodex.pdf" },
+            { name: "Thrombicula autumnalis", file: "pdf/thrombicula.pdf" }
         ]
     },
 
@@ -74,8 +74,8 @@ const cardsData = [
         suit : "mandibulates-list",
         backgroundImage: "images/haematopinus.png",
         items: [
-            { name: "Haematopinus sp.", file: "#" },
-            { name: "Lignognathus sp.", file: "#" }
+            { name: "Haematopinus sp.", file: "pdf/haematopinus.pdf" },
+            { name: "Lignognathus sp.", file: "pdf/linognathus;pdf" }
         ]
     },
 
@@ -85,7 +85,7 @@ const cardsData = [
         suit : "mandibulates-list",
         backgroundImage: "",
         items: [
-            { name: "Culicoïdes sp.", file: "#" }
+            { name: "Culicoïdes sp.", file: "pdf/culicoïdes.pdf" }
         ]
     },
 
@@ -95,7 +95,7 @@ const cardsData = [
         suit : "mandibulates-list",
         backgroundImage: "images/cimex.png",
         items: [
-            { name: "Cimex lectularius", file: "#" }
+            { name: "Cimex lectularius", file: "pdf/cimex_lectularius.pdf" }
         ]
     },
 
@@ -105,8 +105,8 @@ const cardsData = [
         suit : "mandibulates-list",
         backgroundImage: "images/culicides.png",
         items: [
-            { name: "Anaphélinés", file: "#" },
-            { name: "Culicinés", file: "#" }
+            { name: "Anaphélinés", file: "pdf/anophelines.pdf" },
+            { name: "Culicinés", file: "pdf/culicines.pdf" }
         ]
     },
 
@@ -116,7 +116,7 @@ const cardsData = [
         suit : "mandibulates-list",
         backgroundImage: "",
         items: [
-            { name: "Melophagus ovinus", file: "#" }
+            { name: "Melophagus ovinus", file: "pdf/melophagus_ovinus.pdf" }
         ]
     },
 
@@ -128,7 +128,7 @@ const cardsData = [
         items: [
             { name: "Gasterophilus intestinalis", file: "pdf/gasterophilus_sp.pdf" },
             { name: "Hypoderma bovis", file: "pdf/hypoderma_bovis.pdf" },
-            { name: "Oestrus ovis", file: "#" },
+            { name: "Oestrus ovis", file: "pdf/oestrus_ovis.pdf" },
         ]
     },
 
@@ -138,8 +138,8 @@ const cardsData = [
         suit : "mandibulates-list",
         backgroundImage: "images/bovicola.png",
         items: [
-            { name: "Bovicola sp.", file: "#" },
-            { name: "Trichodectes canis", file: "#" }
+            { name: "Bovicola sp.", file: "pdf.bovicola.pdf" },
+            { name: "Trichodectes canis", file: "pdf/trichodectes_canis.pdf" }
         ]
     },
 
@@ -149,7 +149,7 @@ const cardsData = [
         suit : "mandibulates-list",
         backgroundImage: "",
         items: [
-            { name: "Phlebotomus sp.", file: "#" }
+            { name: "Phlebotomus sp.", file: "pdf/phlebotomus.pdf" }
         ]
     },
 
@@ -170,7 +170,7 @@ const cardsData = [
         suit : "mandibulates-list",
         backgroundImage: "",
         items: [
-            { name: "Simulium sp.", file: "#" }
+            { name: "Simulium sp.", file: "pdf/simulium.pdf" }
         ]
     },
     {
@@ -179,7 +179,7 @@ const cardsData = [
         suit : "mandibulates-list",
         backgroundImage: "",
         items: [
-            { name: "Tabanus", file: "#" }
+            { name: "Tabanus", file: "pdf/tabanus.pdf" }
         ]
     }
 
