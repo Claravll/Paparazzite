@@ -83,9 +83,9 @@ const cardsData = [
         name: "Ceratopogonidae",
         group: "mandibulate",
         suit : "mandibulates-list",
-        backgroundImage: "",
+        backgroundImage: "images/culicoide.png",
         items: [
-            { name: "Culicoïdes sp.", file: "pdf/culicoïdes.pdf" }
+            { name: "Culicoïdes sp.", file: "pdf/culicoides.pdf" }
         ]
     },
 
@@ -114,7 +114,7 @@ const cardsData = [
         name: "Hippoboscidae",
         group: "mandibulate",
         suit : "mandibulates-list",
-        backgroundImage: "",
+        backgroundImage: "images/melophagus.png",
         items: [
             { name: "Melophagus ovinus", file: "pdf/melophagus_ovinus.pdf" }
         ]
@@ -147,7 +147,7 @@ const cardsData = [
         name: "Psychodidae",
         group: "mandibulate",
         suit : "mandibulates-list",
-        backgroundImage: "",
+        backgroundImage: "images/phlebotomus.png",
         items: [
             { name: "Phlebotomus sp.", file: "pdf/phlebotomus.pdf" }
         ]
@@ -168,7 +168,7 @@ const cardsData = [
         name: "Simuliidae",
         group: "mandibulate",
         suit : "mandibulates-list",
-        backgroundImage: "",
+        backgroundImage: "images/simulium.png",
         items: [
             { name: "Simulium sp.", file: "pdf/simulium.pdf" }
         ]
@@ -177,7 +177,7 @@ const cardsData = [
         name: "Tabanidae",
         group: "mandibulate",
         suit : "mandibulates-list",
-        backgroundImage: "",
+        backgroundImage: "images/tabanus.png",
         items: [
             { name: "Tabanus", file: "pdf/tabanus.pdf" }
         ]
