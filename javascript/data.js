@@ -69,7 +69,7 @@ const cardsData = [
 
 
     {
-        name: "Anoploures-Hématopinidae",
+        name: "Anoploures-Hematopinidae",
         group: "mandibulate",
         suit : "mandibulates-list",
         backgroundImage: "images/haematopinus.png",
