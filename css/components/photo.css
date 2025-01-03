@@ -1,0 +1,7 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr); /* Deux colonnes pour les tablettes */
+      max-width: 800px; /* Limite la largeur pour centrer les deux colonnes */
+      margin: auto; /* Centre la grille */
+    }
+  }
