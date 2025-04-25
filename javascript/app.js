@@ -93,7 +93,24 @@ function createCollection(data) {
     const collection = document.createElement('div');
     collection.className = 'container';
     const normalizedName = normalizeText(data.name);
-    const itemsHTML = data.items.map((item, index) => `
+    const itemsHTML = data.items.map((item, index) => {
+        // Générer le contenu des photos, qu'il y ait une ou plusieurs images
+        let photoContent = '';
+        if (Array.isArray(item.photo)) {
+            photoContent = item.photo.map(photo => `
+                <a href="${photo}" target="_blank">
+                    <img src="${photo}" alt="${item.name}" style="width: 35%; height: auto; margin: 5px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                </a>
+            `).join('');
+        } else {
+            photoContent = `
+                <a href="${item.photo}" target="_blank">
+                    <img src="${item.photo}" alt="${item.name}" style="width: 35%; height: auto; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                </a>
+            `;
+        }
+        
+        return `
         <div class="collection-item mb-4" style="overflow: hidden; text-align: center;">
             <button class="btn etiquette-btn" 
                 onclick="togglePhoto('photo-container-${normalizedName}-${index}')"
@@ -101,8 +118,8 @@ function createCollection(data) {
                     background-image: url('${item.etiquette}');
                     background-size: cover;
                     background-position: center;
-                    width: 50%;
-                    height: 250px;
+                    width: 40%;
+                    height: 220px;
                     margin: 0 auto;
                     border: none;
                     border-radius: 8px;
@@ -114,12 +131,11 @@ function createCollection(data) {
                 onmouseout="this.style.transform='scale(1)'">
             </button>
             <div id="photo-container-${normalizedName}-${index}" style="display: none; text-align: center; margin-top: 10px; transition: opacity 0.3s;">
-                <a href="${item.photo}" target="_blank">
-                    <img src="${item.photo}" alt="${item.name}" style="width: 35%; height: auto; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-                </a>
+                ${photoContent}
             </div>
         </div>
-    `).join('');
+        `;
+    }).join('');
     
     collection.innerHTML = `
         <h3 class="text-center text-decoration-underline mb-4">${data.name}</h3>

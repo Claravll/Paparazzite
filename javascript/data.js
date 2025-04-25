@@ -45,7 +45,7 @@ const cardsData = [
         items: [
             { name: "Chorioptes sp.", file: "pdf/chorioptes_sp.pdf", etiquette: "etiquettes/chorioptes.png", photo: "photos/chorioptes.jpg" },
             { name: "Otodectes sp.", file: "pdf/otodectes_sp.pdf", etiquette: "etiquettes/otodectes.png", photo: "photos/octodectes.jpg" },
-            { name: "Psoroptes sp.", file: "pdf/psoroptes.pdf", etiquette: "etiquettes/psoroptes.png", photo: "photos/psoroptes.jpg" }
+            { name: "Psoroptes sp.", file: "pdf/psoroptes.pdf", etiquette: "etiquettes/psoroptes.png", photo: ["photos/psoroptes_1.png", "photos/psoroptes_2.png", "photos/psoroptes_3.png", "photos/psoroptes_4.png", "photos/psoroptes_5.png"] }
         ]
     },
 
@@ -81,7 +81,7 @@ const cardsData = [
         category : "mandibulates-photo",
         backgroundImage: "images/haematopinus.png",
         items: [
-            { name: "Haematopinus sp.", file: "pdf/haematopinus.pdf", etiquette: "etiquettes/argas.png", photo: "photos/haematopinus.jpg" },
+            { name: "Haematopinus sp.", file: "pdf/haematopinus.pdf", etiquette: "etiquettes/haematopinus.png", photo: "photos/haematopinus.jpg" },
             { name: "Lignognathus sp.", file: "pdf/linognathus.pdf", etiquette: "etiquettes/argas.png", photo: "photos/lignognathus-1.jpg" }
         ]
     },
@@ -93,7 +93,7 @@ const cardsData = [
         category : "mandibulates-photo",
         backgroundImage: "images/culicoide.png",
         items: [
-            { name: "Culicoïdes sp.", file: "pdf/culicoides.pdf", etiquette: "etiquettes/culicoides.png", photo: "photos/culicoides.jpg" }
+            { name: "Culicoïdes sp.", file: "pdf/culicoides.pdf", etiquette: "etiquettes/culicoides.png", photo: [ "photos/culicoides.jpg", "photos/culicoides_1.png","photos/culicoides_2.png" ] }
         ]
     },
 
@@ -138,7 +138,7 @@ const cardsData = [
         category : "mandibulates-photo",
         backgroundImage: "images/larves.png",
         items: [
-            { name: "Gasterophilus intestinalis", file: "pdf/gasterophilus_sp.pdf", etiquette: "etiquettes/gasterophilus.png", photo: "images/argaside.png" },
+            { name: "Gasterophilus intestinalis", file: "pdf/gasterophilus_sp.pdf", etiquette: "etiquettes/gasterophilus.png", photo:  [ "photos/gasterophilus_1.png", "photos/gasterophilus_2.png","photos/gasterophilus_3.png", "photos/gasterophilus_4.png", "photos/gasterophilus_5.png", "photos/gasterophilus_6.png", "photos/gasterophilus_7.png", "photos/gasterophilus_8.png" ] },
             { name: "Hypoderma bovis", file: "pdf/hypoderma_bovis.pdf", etiquette: "etiquettes/hypoderma.png", photo: "images/argaside.png" },
             { name: "Oestrus ovis", file: "pdf/oestrus_ovis.pdf", etiquette: "etiquettes/oestrus_ovis.png", photo: "images/argaside.png" },
         ]
@@ -196,7 +196,7 @@ const cardsData = [
         category : "mandibulates-photo",
         backgroundImage: "images/tabanus.png",
         items: [
-            { name: "Tabanus", file: "pdf/tabanus.pdf", etiquette: "etiquettes/tabanus.png", photo: "images/argaside.png" }
+            { name: "Tabanus", file: "pdf/tabanus.pdf", etiquette: "etiquettes/tabanus.png", photo: ["photos/tabanus_1.png", "photos/tabanus_2.png", "photos/tabanus_3.png", "photos/tabanus_4.png"] },
         ]
     }
 
