@@ -101,8 +101,8 @@ function createCollection(data) {
                     background-image: url('${item.etiquette}');
                     background-size: cover;
                     background-position: center;
-                    width: 60%;
-                    height: 200px;
+                    width: 50%;
+                    height: 250px;
                     margin: 0 auto;
                     border: none;
                     border-radius: 8px;
