@@ -1,4 +1,3 @@
-
 function normalizeText(text) {
     return text
         .toLowerCase()                        // Convert text to lowercase
@@ -90,39 +89,53 @@ function listParasites() {
 listParasites();
 
 // // Fonction pour afficher les photos et leur étiquette respective
-function createCollection(data){
+function createCollection(data) {
     const collection = document.createElement('div');
     collection.className = 'container';
-    const itemsHTML = data.items.map(item => `
-         <div class="row d-flex align-items-center mb-4"> <!-- Conteneur flex pour aligner photo et étiquette -->
-            <div class="col-6 text-center">
-                <a href="${item.photo}" target="_blank" class="fw-bold">
-                    <img
-                        src="${item.photo}"
-                        alt="${item.name}"
-                        style="width: 70%; height: 70%;"
-                    >
+    const itemsHTML = data.items.map((item, index) => `
+        <div class="collection-item mb-4" style="overflow: hidden; text-align: center;">
+            <button class="btn etiquette-btn" 
+                onclick="togglePhoto('photo-container-${index}')"
+                style="
+                    background-image: url('${item.etiquette}');
+                    background-size: cover;
+                    background-position: center;
+                    width: 60%;
+                    height: 200px;
+                    margin: 0 auto;
+                    border: none;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                    transition: transform 0.2s;
+                    position: relative;
+                "
+                onmouseover="this.style.transform='scale(1.03)'"
+                onmouseout="this.style.transform='scale(1)'">
+            </button>
+            <div id="photo-container-${index}" style="display: none; text-align: center; margin-top: 10px; transition: opacity 0.3s;">
+                <a href="${item.photo}" target="_blank">
+                    <img src="${item.photo}" alt="${item.name}" style="width: 35%; height: auto; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
                 </a>
             </div>
-            <div class="col-6 text-center">
-                <img
-                    src="${item.etiquette}"
-                    alt="Étiquette de ${item.name}"
-                    style="width: 70%; height: 250%; object-fit: cover;"
-                >
-            </div>
         </div>
-    `).join(''); // Combine tous les éléments HTML générés dans une chaîne
-
-    // Ajoute le HTML généré au conteneur
+    `).join('');
     
     collection.innerHTML = `
-    <h3 class="text-center text-decoration-underline"> ${data.name} </h3>
-     ${itemsHTML}; `
-
+        <h3 class="text-center text-decoration-underline mb-4">${data.name}</h3>
+        ${itemsHTML}
+    `;
+    
     return collection;
 }
 
+function togglePhoto(containerId) {
+    const container = document.getElementById(containerId);
+    if (container.style.display === 'none' || container.style.display === '') {
+        container.style.display = 'block';
+    } else {
+        container.style.display = 'none';
+    }
+}
 
 function loadCollections() {
     cardsData.forEach(data => {

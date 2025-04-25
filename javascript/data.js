@@ -82,7 +82,7 @@ const cardsData = [
         backgroundImage: "images/haematopinus.png",
         items: [
             { name: "Haematopinus sp.", file: "pdf/haematopinus.pdf", etiquette: "etiquettes/argas.png", photo: "photos/haematopinus.jpg" },
-            { name: "Lignognathus sp.", file: "pdf/linognathus;pdf", etiquette: "etiquettes/argas.png", photo: "photos/lignognathus-1.jpg" }
+            { name: "Lignognathus sp.", file: "pdf/linognathus.pdf", etiquette: "etiquettes/argas.png", photo: "photos/lignognathus-1.jpg" }
         ]
     },
 
