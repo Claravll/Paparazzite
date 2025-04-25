@@ -116,10 +116,10 @@ function createCollection(data) {
                 onclick="togglePhoto('photo-container-${normalizedName}-${index}')"
                 style="
                     background-image: url('${item.etiquette}');
-                    background-size: cover;
+                    background-size: contain;
                     background-position: center;
-                    width: 40%;
-                    height: 220px;
+                    width: 20%;
+                    height: 160px;
                     margin: 0 auto;
                     border: none;
                     border-radius: 8px;

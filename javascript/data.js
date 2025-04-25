@@ -81,8 +81,8 @@ const cardsData = [
         category : "mandibulates-photo",
         backgroundImage: "images/haematopinus.png",
         items: [
-            { name: "Haematopinus sp.", file: "pdf/haematopinus.pdf", etiquette: "etiquettes/haematopinus.png", photo: "photos/haematopinus.jpg" },
-            { name: "Lignognathus sp.", file: "pdf/linognathus.pdf", etiquette: "etiquettes/argas.png", photo: "photos/lignognathus-1.jpg" }
+            { name: "Haematopinus sp.", file: "pdf/haematopinus.pdf", etiquette: "etiquettes/haematopinus.jpg", photo: "photos/haematopinus.jpg" },
+            { name: "Lignognathus sp.", file: "pdf/linognathus.pdf", etiquette: "etiquettes/lingnathus.jpg", photo: "photos/lignognathus-1.jpg" }
         ]
     },
 
@@ -104,7 +104,7 @@ const cardsData = [
         category : "mandibulates-photo",
         backgroundImage: "images/cimex.png",
         items: [
-            { name: "Cimex lectularius", file: "pdf/cimex_lectularius.pdf", etiquette: "etiquettes/argas.png", photo: "images/argaside.png" }
+            { name: "Cimex lectularius", file: "pdf/cimex_lectularius.pdf", etiquette: "etiquettes/lectularius.jpg", photo: "images/argaside.png" }
         ]
     },
 
@@ -151,7 +151,7 @@ const cardsData = [
         category : "mandibulates-photo",
         backgroundImage: "images/bovicola.png",
         items: [
-            { name: "Bovicola sp.", file: "pdf.bovicola.pdf", etiquette: "etiquettes/argas.png", photo: "photos/bovicola.jpg" },
+            { name: "Bovicola sp.", file: "pdf.bovicola.pdf", etiquette: "etiquettes/bovicola.jpg", photo: "photos/bovicola.jpg" },
             { name: "Trichodectes canis", file: "pdf/trichodecte_canis.pdf", etiquette: "etiquettes/trichodectes.png", photo: "photos/tricodectes_canis.jpg" }
         ]
     },
