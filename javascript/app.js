@@ -92,10 +92,11 @@ listParasites();
 function createCollection(data) {
     const collection = document.createElement('div');
     collection.className = 'container';
+    const normalizedName = normalizeText(data.name);
     const itemsHTML = data.items.map((item, index) => `
         <div class="collection-item mb-4" style="overflow: hidden; text-align: center;">
             <button class="btn etiquette-btn" 
-                onclick="togglePhoto('photo-container-${index}')"
+                onclick="togglePhoto('photo-container-${normalizedName}-${index}')"
                 style="
                     background-image: url('${item.etiquette}');
                     background-size: cover;
@@ -112,7 +113,7 @@ function createCollection(data) {
                 onmouseover="this.style.transform='scale(1.03)'"
                 onmouseout="this.style.transform='scale(1)'">
             </button>
-            <div id="photo-container-${index}" style="display: none; text-align: center; margin-top: 10px; transition: opacity 0.3s;">
+            <div id="photo-container-${normalizedName}-${index}" style="display: none; text-align: center; margin-top: 10px; transition: opacity 0.3s;">
                 <a href="${item.photo}" target="_blank">
                     <img src="${item.photo}" alt="${item.name}" style="width: 35%; height: auto; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
                 </a>
