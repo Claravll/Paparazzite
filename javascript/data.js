@@ -7,7 +7,7 @@ const cardsData = [
         backgroundImage: "images/argaside.png",
         items: [
             { name: "Argas sp.", file: "pdf/argas_sp.pdf", etiquette: "etiquettes/argas.png", photo: "photos/argas.jpg" },
-            { name: "Ornithodoros sp.", file: "pdf/ornithodoros_sp.pdf", etiquette: "etiquettes/ornothodoros.png", photo: "images/bovicola.png" }
+            { name: "Ornithodoros sp.", file: "pdf/ornithodoros_sp.pdf", etiquette: "etiquettes/ornothodoros.png", photo: "photos/ornithodoros.png" }
         ]
     },
 
@@ -30,8 +30,8 @@ const cardsData = [
         suit : "acariens-list",
         category : "acariens-photo",
         items: [
-            { name: "Dermacentor reticulatus", file: "pdf/dermacentor_reticulatus.pdf", etiquette: "etiquettes/dermatocentor.png", photo: "images/argaside.png" },
-            { name: "Ixodes ricinus", file: "pdf/ixodes_ricinus.pdf", etiquette: "etiquettes/ixodes.png", photo: "photos/ixodes_ricinus.jpg" },
+            { name: "Dermacentor reticulatus", file: "pdf/dermacentor_reticulatus.pdf", etiquette: "etiquettes/dermatocentor.png", photo: ["photos/dermacentor_1.png","photos/dermacentor_2.png","photos/dermacentor_3.png","photos/dermacentor_4.png","photos/dermacentor_5.png","photos/dermacentor_6.png","photos/dermacentor_7.png"] },
+            { name: "Ixodes ricinus", file: "pdf/ixodes_ricinus.pdf", etiquette: "etiquettes/ixodes.png", photo: ["photos/ixodes_ricinus.jpg", "photos/ixodes_1.png","photos/ixodes_2.png","photos/ixodes_3.png","photos/ixodes_4.png","photos/ixodes_5.png","photos/ixodes_6.png","photos/ixodes_7.png","photos/ixodes_8.png" ] },
             { name: "Rhipicephalus sanguineus", file: "pdf/rhipicephalus_sanguineus.pdf", etiquette: "etiquettes/rhipicephalus.png", photo: "photos/rhipicephalus_sanguineus.jpg" }
         ]
     },
@@ -45,7 +45,7 @@ const cardsData = [
         items: [
             { name: "Chorioptes sp.", file: "pdf/chorioptes_sp.pdf", etiquette: "etiquettes/chorioptes.png", photo: "photos/chorioptes.jpg" },
             { name: "Otodectes sp.", file: "pdf/otodectes_sp.pdf", etiquette: "etiquettes/otodectes.png", photo: "photos/octodectes.jpg" },
-            { name: "Psoroptes sp.", file: "pdf/psoroptes.pdf", etiquette: "etiquettes/psoroptes.png", photo: ["photos/psoroptes_1.png", "photos/psoroptes_2.png", "photos/psoroptes_3.png", "photos/psoroptes_4.png", "photos/psoroptes_5.png"] }
+            { name: "Psoroptes sp.", file: "pdf/psoroptes.pdf", etiquette: "etiquettes/psoroptes.png", photo: ["photos/psoroptes.jpg", "photos/psoroptes_1.png", "photos/psoroptes_2.png", "photos/psoroptes_3.png", "photos/psoroptes_4.png"] }
         ]
     },
 
@@ -56,7 +56,7 @@ const cardsData = [
         category : "acariens-photo",
         backgroundImage: "images/psoroptes.png",
         items: [
-            { name: "Sarcoptes scabei", file: "pdf/sarcoptes_scabiei.pdf", etiquette: "etiquettes/sarcoptes.png", photo: "photos/sarcoptes.jpg"}
+            { name: "Sarcoptes scabei", file: "pdf/sarcoptes_scabiei.pdf", etiquette: "etiquettes/sarcoptes.png", photo: [ "photos/sarcoptes.jpg" , "photos/sarcoptes_1.png", "photos/sarcoptes_2.png","photos/sarcoptes_3.png", "photos/sarcoptes_4.png", "photos/sarcoptes_5.png"]}
         ]   
     },
 
@@ -68,8 +68,8 @@ const cardsData = [
         backgroundImage: "images/thrombidide.png",
         items: [
             { name: "Cheyletellia sp.", file: "pdf/cheyletiella.pdf", etiquette: "etiquettes/cheyletiella.png", photo: "photos/cheyletiella.jpg" },
-            { name: "Demodex sp.", file: "pdf/demodex.pdf", etiquette: "etiquettes/demodex.png", photo: "images/argaside.png" },
-            { name: "Thrombicula autumnalis", file: "pdf/thrombicula.pdf", etiquette: "etiquettes/trombicula.png", photo: "images/argaside.png" }
+            { name: "Demodex sp.", file: "pdf/demodex.pdf", etiquette: "etiquettes/demodex.png", photo: "photos/demodex.png" },
+            { name: "Thrombicula autumnalis", file: "pdf/thrombicula.pdf", etiquette: "etiquettes/trombicula.png", photo: "photos/trombicula.png" }
         ]
     },
 
@@ -82,7 +82,7 @@ const cardsData = [
         backgroundImage: "images/haematopinus.png",
         items: [
             { name: "Haematopinus sp.", file: "pdf/haematopinus.pdf", etiquette: "etiquettes/haematopinus.jpg", photo: "photos/haematopinus.jpg" },
-            { name: "Lignognathus sp.", file: "pdf/linognathus.pdf", etiquette: "etiquettes/lingnathus.jpg", photo: "photos/lignognathus-1.jpg" }
+            { name: "Lignognathus sp.", file: "pdf/linognathus.pdf", etiquette: "etiquettes/lingnathus.jpg", photo: ["photos/lignognathus-1.jpg","photos/linognathus_1.png", "photos/linognathus_2.png", "photos/linognathus_3.png", "photos/linognathus_4.png", "photos/linognathus_5.png"] }
         ]
     },
 
@@ -104,7 +104,7 @@ const cardsData = [
         category : "mandibulates-photo",
         backgroundImage: "images/cimex.png",
         items: [
-            { name: "Cimex lectularius", file: "pdf/cimex_lectularius.pdf", etiquette: "etiquettes/lectularius.jpg", photo: "images/argaside.png" }
+            { name: "Cimex lectularius", file: "pdf/cimex_lectularius.pdf", etiquette: "etiquettes/lectularius.jpg", photo: "photos/lectularius.png" }
         ]
     },
 
@@ -115,7 +115,7 @@ const cardsData = [
         category : "mandibulates-photo",
         backgroundImage: "images/culicides.png",
         items: [
-            { name: "Anaphélinés", file: "pdf/anophelines.pdf", etiquette: "etiquettes/anaphelines.png", photo: "images/argaside.png" },
+            { name: "Anaphélinés", file: "pdf/anophelines.pdf", etiquette: "etiquettes/anaphelines.png", photo: "photos/anapheline.png" },
             { name: "Culicinés", file: "pdf/culicines.pdf", etiquette: "etiquettes/culicines.png", photo: "photos/culicinés.jpg" }
         ]
     },
@@ -127,7 +127,7 @@ const cardsData = [
         category : "mandibulates-photo",
         backgroundImage: "images/melophagus.png",
         items: [
-            { name: "Melophagus ovinus", file: "pdf/melophagus_ovinus.pdf", etiquette: "etiquettes/melophagus.png", photo: "images/argaside.png" }
+            { name: "Melophagus ovinus", file: "pdf/melophagus_ovinus.pdf", etiquette: "etiquettes/melophagus.png", photo: "photos/melophagus.png" }
         ]
     },
 
@@ -139,8 +139,8 @@ const cardsData = [
         backgroundImage: "images/larves.png",
         items: [
             { name: "Gasterophilus intestinalis", file: "pdf/gasterophilus_sp.pdf", etiquette: "etiquettes/gasterophilus.png", photo:  [ "photos/gasterophilus_1.png", "photos/gasterophilus_2.png","photos/gasterophilus_3.png", "photos/gasterophilus_4.png", "photos/gasterophilus_5.png", "photos/gasterophilus_6.png", "photos/gasterophilus_7.png", "photos/gasterophilus_8.png" ] },
-            { name: "Hypoderma bovis", file: "pdf/hypoderma_bovis.pdf", etiquette: "etiquettes/hypoderma.png", photo: "images/argaside.png" },
-            { name: "Oestrus ovis", file: "pdf/oestrus_ovis.pdf", etiquette: "etiquettes/oestrus_ovis.png", photo: "images/argaside.png" },
+            { name: "Hypoderma bovis", file: "pdf/hypoderma_bovis.pdf", etiquette: "etiquettes/hypoderma.png", photo: "photos/hypoderma.png" },
+            { name: "Oestrus ovis", file: "pdf/oestrus_ovis.pdf", etiquette: "etiquettes/oestrus_ovis.png", photo: "photos/oestrus_ovis.png" },
         ]
     },
 
@@ -174,7 +174,7 @@ const cardsData = [
         category : "mandibulates-photo",
         backgroundImage: "images/ctenocephalides.png",
         items: [
-            { name: "Ctenocephalides canis", file: "pdf/ctenocephalides_canis.pdf", etiquette: "etiquettes/ctenocephalides_canis.png", photo: "photos/c_canis.jpg" },
+            { name: "Ctenocephalides canis", file: "pdf/ctenocephalides_canis.pdf", etiquette: "etiquettes/ctenocephalides_canis.png", photo: ["photos/c_canis.jpg","photos/c_canis_1.png","photos/c_canis_2.png","photos/c_canis_3.png","photos/c_canis_4.png","photos/c_canis_5.png" ] },
             { name: "Ctenocephalides felis", file: "pdf/ctenocephalides_felis.pdf", etiquette: "etiquettes/ctenocephalides_felis.png", photo: "photos/c_felis.jpg" }
         ]
     },
