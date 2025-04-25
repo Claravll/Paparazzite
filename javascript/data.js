@@ -32,7 +32,7 @@ const cardsData = [
         items: [
             { name: "Dermacentor reticulatus", file: "pdf/dermacentor_reticulatus.pdf", etiquette: "etiquettes/dermatocentor.png", photo: "images/argaside.png" },
             { name: "Ixodes ricinus", file: "pdf/ixodes_ricinus.pdf", etiquette: "etiquettes/ixodes.png", photo: "photos/ixodes_ricinus.jpg" },
-            { name: "Rhipicephalus sanguineus", file: "pdf/ripicephalus_sanguineus.pdf", etiquette: "etiquettes/rhipicephalus.png", photo: "photos/rhipicephalus_sanguineus.jpg" }
+            { name: "Rhipicephalus sanguineus", file: "pdf/rhipicephalus_sanguineus.pdf", etiquette: "etiquettes/rhipicephalus.png", photo: "photos/rhipicephalus_sanguineus.jpg" }
         ]
     },
 
@@ -152,7 +152,7 @@ const cardsData = [
         backgroundImage: "images/bovicola.png",
         items: [
             { name: "Bovicola sp.", file: "pdf.bovicola.pdf", etiquette: "etiquettes/argas.png", photo: "photos/bovicola.jpg" },
-            { name: "Trichodectes canis", file: "pdf/trichodectes_canis.pdf", etiquette: "etiquettes/trichodectes.png", photo: "photos/tricodectes_canis.jpg" }
+            { name: "Trichodectes canis", file: "pdf/trichodecte_canis.pdf", etiquette: "etiquettes/trichodectes.png", photo: "photos/tricodectes_canis.jpg" }
         ]
     },
 
