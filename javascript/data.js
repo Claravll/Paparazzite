@@ -69,7 +69,7 @@ const cardsData = [
         items: [
             { name: "Cheyletellia sp.", file: "pdf/cheyletiella.pdf", etiquette: "etiquettes/cheyletiella.png", photo: "photos/cheyletiella.jpg" },
             { name: "Demodex sp.", file: "pdf/demodex.pdf", etiquette: "etiquettes/demodex.png", photo: "photos/demodex.png" },
-            { name: "Thrombicula autumnalis", file: "pdf/thrombicula.pdf", etiquette: "etiquettes/trombicula.png", photo: "photos/trombicula.png" }
+            { name: "Thrombicula autumnalis", file: "pdf/trombicula.pdf", etiquette: "etiquettes/trombicula.png", photo: "photos/trombicula.png" }
         ]
     },
 
@@ -151,7 +151,7 @@ const cardsData = [
         category : "mandibulates-photo",
         backgroundImage: "images/bovicola.png",
         items: [
-            { name: "Bovicola sp.", file: "pdf.bovicola.pdf", etiquette: "etiquettes/bovicola.jpg", photo: "photos/bovicola.jpg" },
+            { name: "Bovicola sp.", file: "pdf/bovicola.pdf", etiquette: "etiquettes/bovicola.jpg", photo: "photos/bovicola.jpg" },
             { name: "Trichodectes canis", file: "pdf/trichodecte_canis.pdf", etiquette: "etiquettes/trichodectes.png", photo: "photos/tricodectes_canis.jpg" }
         ]
     },
